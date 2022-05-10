@@ -21,7 +21,7 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - name: test githubaction
-        uses: asdf/metrics@latest
+        uses: Unfinishedgod/metrics@latest
         with:
           token: ${{ secrets.SAMPLE_SECRET_NAME }}
           filename: github-metrics-uiyong.svg
